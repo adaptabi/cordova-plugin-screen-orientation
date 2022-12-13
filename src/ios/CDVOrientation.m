@@ -96,7 +96,7 @@
                         [self.viewController setNeedsUpdateOfSupportedInterfaceOrientations];
                     }
                     else {
-                        [UINavigationController setNeedsUpdateOfSupportedInterfaceOrientations];
+                        [UINavigationController attemptRotationToDeviceOrientation];
                     }
 
                     // [UINavigationController attemptRotationToDeviceOrientation];
